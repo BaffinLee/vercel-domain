@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {"source": "/cnode/", "destination": "https://cnode-baffinlee.vercel.com/"},
+    {"source": "/cnode/:match*", "destination": "https://cnode-baffinlee.vercel.app/:match*"},
+    {"source": "/json4json/", "destination": "https://json4json.vercel.com/"},
+    {"source": "/json4json/:match*", "destination": "https://json4json.vercel.app/:match*"},
+    {"source": "/leetcode-javascript/", "destination": "https://leetcode-javascript.vercel.com/"},
+    {"source": "/leetcode-javascript/:match*", "destination": "https://leetcode-javascript.vercel.app/:match*"},
+    {"source": "/", "destination": "https://baffinlee.vercel.com/"},
+    {"source": "/:match*", "destination": "https://baffinlee.vercel.com/:match*"}
+  ]
+}
